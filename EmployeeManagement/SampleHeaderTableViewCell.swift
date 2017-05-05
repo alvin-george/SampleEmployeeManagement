@@ -1,22 +1,23 @@
 //
-//  EmployeeCreationOptionsTableCell.swift
-//  EmployeeManagement
+//  SampleHeaderTableViewCell.swift
+//  SampleRadioButton
 //
-//  Created by Pushpam Group on 04/05/17.
+//  Created by Pushpam Group on 05/04/17.
 //  Copyright © 2017 Pushpam Group. All rights reserved.
 //
 
 import UIKit
 
-class EmployeeCreationOptionsTableCell: UITableViewCell {
+class SampleHeaderTableViewCell: UITableViewCell {
 
-    @IBOutlet var optionsButton: UIButton!
-    @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var selectedOptionLabel: UILabel!
+    @IBOutlet var headerTitle: UILabel!
+    @IBOutlet var doneButton: UIButton!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        doneButton.makeRoundedCornerEdge(button: doneButton, cornerRadius: 5.0)
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

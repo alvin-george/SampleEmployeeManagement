@@ -29,8 +29,13 @@ class EmployeeListController: UIAppViewController ,UITableViewDataSource, UITabl
         initialUISetup()        
         
     }
+    override func viewWillAppear(_ animated: Bool) {
+        initialUISetup()
+    }
     func initialUISetup()
     {
+        self.automaticallyAdjustsScrollViewInsets = false
+        
         self.employeeSearchBar.isHidden =  true
         self.employeeSearchBar.setPlaceholderTextColor(color: UIColor.white)
         self.employeeSearchBar.changeSearchImage(searchBar: employeeSearchBar, imageName: "search_white_icon")
