@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		82DFAF8D1EBAEC1B006FFD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAF8C1EBAEC1B006FFD32 /* AppDelegate.swift */; };
-		82DFAF8F1EBAEC1B006FFD32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAF8E1EBAEC1B006FFD32 /* ViewController.swift */; };
 		82DFAF921EBAEC1B006FFD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DFAF901EBAEC1B006FFD32 /* Main.storyboard */; };
 		82DFAF951EBAEC1B006FFD32 /* EmployeeManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAF931EBAEC1B006FFD32 /* EmployeeManagement.xcdatamodeld */; };
 		82DFAF971EBAEC1B006FFD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DFAF961EBAEC1B006FFD32 /* Assets.xcassets */; };
 		82DFAF9A1EBAEC1B006FFD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DFAF981EBAEC1B006FFD32 /* LaunchScreen.storyboard */; };
+		82DFAFA51EBAEDAF006FFD32 /* EmployeeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFA41EBAEDAF006FFD32 /* EmployeeListController.swift */; };
+		82DFAFA71EBAEDBD006FFD32 /* EmployeeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFA61EBAEDBD006FFD32 /* EmployeeDetailController.swift */; };
+		82DFAFA91EBAEDF1006FFD32 /* EmployeeCreationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFA81EBAEDF1006FFD32 /* EmployeeCreationController.swift */; };
+		82DFAFAB1EBAEE68006FFD32 /* UIAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFAA1EBAEE68006FFD32 /* UIAppViewController.swift */; };
+		82DFAFAF1EBB0C6A006FFD32 /* EmployeeListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFAE1EBB0C6A006FFD32 /* EmployeeListTableCell.swift */; };
+		82DFAFB11EBB1679006FFD32 /* EmployeeCreationProfileTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFB01EBB1679006FFD32 /* EmployeeCreationProfileTableCell.swift */; };
+		82DFAFB41EBB2553006FFD32 /* EmployeeCreationTextFieldTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFB31EBB2553006FFD32 /* EmployeeCreationTextFieldTableCell.swift */; };
+		82DFAFB61EBB2569006FFD32 /* EmployeeCreationTextViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFB51EBB2569006FFD32 /* EmployeeCreationTextViewTableCell.swift */; };
+		82DFAFB81EBB2586006FFD32 /* EmployeeCreationOptionsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFB71EBB2586006FFD32 /* EmployeeCreationOptionsTableCell.swift */; };
+		82DFAFBA1EBB3693006FFD32 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFB91EBB3693006FFD32 /* AppExtensions.swift */; };
+		82DFAFC51EBB5747006FFD32 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFC41EBB5747006FFD32 /* PickerViewController.swift */; };
+		82DFAFC71EBB61D1006FFD32 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFAFC61EBB61D1006FFD32 /* DatePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82DFAF891EBAEC1B006FFD32 /* EmployeeManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DFAF8C1EBAEC1B006FFD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82DFAF8E1EBAEC1B006FFD32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82DFAF911EBAEC1B006FFD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82DFAF941EBAEC1B006FFD32 /* EmployeeManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmployeeManagement.xcdatamodel; sourceTree = "<group>"; };
 		82DFAF961EBAEC1B006FFD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DFAF991EBAEC1B006FFD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DFAF9B1EBAEC1B006FFD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DFAFA41EBAEDAF006FFD32 /* EmployeeListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListController.swift; sourceTree = "<group>"; };
+		82DFAFA61EBAEDBD006FFD32 /* EmployeeDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailController.swift; sourceTree = "<group>"; };
+		82DFAFA81EBAEDF1006FFD32 /* EmployeeCreationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCreationController.swift; sourceTree = "<group>"; };
+		82DFAFAA1EBAEE68006FFD32 /* UIAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAppViewController.swift; sourceTree = "<group>"; };
+		82DFAFAE1EBB0C6A006FFD32 /* EmployeeListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListTableCell.swift; sourceTree = "<group>"; };
+		82DFAFB01EBB1679006FFD32 /* EmployeeCreationProfileTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCreationProfileTableCell.swift; sourceTree = "<group>"; };
+		82DFAFB31EBB2553006FFD32 /* EmployeeCreationTextFieldTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCreationTextFieldTableCell.swift; sourceTree = "<group>"; };
+		82DFAFB51EBB2569006FFD32 /* EmployeeCreationTextViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCreationTextViewTableCell.swift; sourceTree = "<group>"; };
+		82DFAFB71EBB2586006FFD32 /* EmployeeCreationOptionsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCreationOptionsTableCell.swift; sourceTree = "<group>"; };
+		82DFAFB91EBB3693006FFD32 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		82DFAFC41EBB5747006FFD32 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		82DFAFC61EBB61D1006FFD32 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +79,82 @@
 			isa = PBXGroup;
 			children = (
 				82DFAF8C1EBAEC1B006FFD32 /* AppDelegate.swift */,
-				82DFAF8E1EBAEC1B006FFD32 /* ViewController.swift */,
-				82DFAF901EBAEC1B006FFD32 /* Main.storyboard */,
+				82DFAFAA1EBAEE68006FFD32 /* UIAppViewController.swift */,
+				82DFAFAC1EBAEEED006FFD32 /* Helper */,
+				82DFAFA21EBAEC34006FFD32 /* CoreDataModel */,
+				82DFAFA31EBAEC3C006FFD32 /* Controller */,
+				82DFAFA11EBAEC28006FFD32 /* View */,
 				82DFAF961EBAEC1B006FFD32 /* Assets.xcassets */,
-				82DFAF981EBAEC1B006FFD32 /* LaunchScreen.storyboard */,
 				82DFAF9B1EBAEC1B006FFD32 /* Info.plist */,
-				82DFAF931EBAEC1B006FFD32 /* EmployeeManagement.xcdatamodeld */,
 			);
 			path = EmployeeManagement;
+			sourceTree = "<group>";
+		};
+		82DFAFA11EBAEC28006FFD32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAFAD1EBB0C3A006FFD32 /* TableViewCell */,
+				82DFAF901EBAEC1B006FFD32 /* Main.storyboard */,
+				82DFAF981EBAEC1B006FFD32 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		82DFAFA21EBAEC34006FFD32 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAF931EBAEC1B006FFD32 /* EmployeeManagement.xcdatamodeld */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		82DFAFA31EBAEC3C006FFD32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAFA41EBAEDAF006FFD32 /* EmployeeListController.swift */,
+				82DFAFA61EBAEDBD006FFD32 /* EmployeeDetailController.swift */,
+				82DFAFA81EBAEDF1006FFD32 /* EmployeeCreationController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		82DFAFAC1EBAEEED006FFD32 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAFB91EBB3693006FFD32 /* AppExtensions.swift */,
+				82DFAFBC1EBB3CDB006FFD32 /* ModelUIPicker */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		82DFAFAD1EBB0C3A006FFD32 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAFAE1EBB0C6A006FFD32 /* EmployeeListTableCell.swift */,
+				82DFAFB21EBB252A006FFD32 /* EmployeeCreation */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		82DFAFB21EBB252A006FFD32 /* EmployeeCreation */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAFB01EBB1679006FFD32 /* EmployeeCreationProfileTableCell.swift */,
+				82DFAFB31EBB2553006FFD32 /* EmployeeCreationTextFieldTableCell.swift */,
+				82DFAFB51EBB2569006FFD32 /* EmployeeCreationTextViewTableCell.swift */,
+				82DFAFB71EBB2586006FFD32 /* EmployeeCreationOptionsTableCell.swift */,
+			);
+			name = EmployeeCreation;
+			sourceTree = "<group>";
+		};
+		82DFAFBC1EBB3CDB006FFD32 /* ModelUIPicker */ = {
+			isa = PBXGroup;
+			children = (
+				82DFAFC41EBB5747006FFD32 /* PickerViewController.swift */,
+				82DFAFC61EBB61D1006FFD32 /* DatePickerViewController.swift */,
+			);
+			name = ModelUIPicker;
+			path = ../../SampleUIPickerCommon/SampleUIPickerCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82DFAF8F1EBAEC1B006FFD32 /* ViewController.swift in Sources */,
+				82DFAFA91EBAEDF1006FFD32 /* EmployeeCreationController.swift in Sources */,
+				82DFAFB61EBB2569006FFD32 /* EmployeeCreationTextViewTableCell.swift in Sources */,
+				82DFAFC71EBB61D1006FFD32 /* DatePickerViewController.swift in Sources */,
 				82DFAF8D1EBAEC1B006FFD32 /* AppDelegate.swift in Sources */,
+				82DFAFC51EBB5747006FFD32 /* PickerViewController.swift in Sources */,
+				82DFAFBA1EBB3693006FFD32 /* AppExtensions.swift in Sources */,
+				82DFAFB41EBB2553006FFD32 /* EmployeeCreationTextFieldTableCell.swift in Sources */,
+				82DFAFB81EBB2586006FFD32 /* EmployeeCreationOptionsTableCell.swift in Sources */,
+				82DFAFAB1EBAEE68006FFD32 /* UIAppViewController.swift in Sources */,
 				82DFAF951EBAEC1B006FFD32 /* EmployeeManagement.xcdatamodeld in Sources */,
+				82DFAFAF1EBB0C6A006FFD32 /* EmployeeListTableCell.swift in Sources */,
+				82DFAFA71EBAEDBD006FFD32 /* EmployeeDetailController.swift in Sources */,
+				82DFAFA51EBAEDAF006FFD32 /* EmployeeListController.swift in Sources */,
+				82DFAFB11EBB1679006FFD32 /* EmployeeCreationProfileTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +402,7 @@
 				82DFAFA01EBAEC1B006FFD32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
